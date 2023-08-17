@@ -7,10 +7,10 @@ const tiktokIcon = document.getElementById("tiktok");
 
 const construction_message = document.getElementById("construction")
 
-let discord_link = "";
-let youtube_link = "";
-let twitch_link = "";
-let tiktok_link = "";
+let discord_link = "https://discord.gg/dEUjzZYK";
+let youtube_link = "https://www.youtube.com/@PsychedWorld";
+let twitch_link = "https://www.twitch.tv/psychedworld";
+let tiktok_link = "https://www.tiktok.com/@psyched_world";
 
 discordIcon.addEventListener("mouseover", function() {
   discordIcon.style.animation = `discord_hover ${animationDuration} ease-in-out`;
