@@ -60,3 +60,8 @@ rumbleImage.addEventListener("mouseout", function() {
   rumbleImage.style.filter = "brightness(1)"; // Reset brightness
 });
  
+window.onload = function(){
+    setTimeout(() => {
+  construction_message.style.visibility = "visible";
+}, 2000);
+}
