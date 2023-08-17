@@ -1,0 +1,35 @@
+@keyframes discord_hover {
+    0% {
+      fill: black; /* Starting color */
+    }
+    100% {
+      fill: #7289da; /* Purple color used by Discord */
+    }
+}
+
+@keyframes youtube_hover {
+    0% {
+      fill: black; /* Starting color */
+    }
+    100% {
+      fill: #ff0000; /* Red color used by YouTube */
+    }
+}
+
+@keyframes twitch_hover {
+  0% {
+    fill: black; /* Starting color */
+  }
+  100% {
+    fill: #9146ff; /* Purple color used by Twitch */
+  }
+}
+
+@keyframes tiktok_hover {
+    0% {
+      fill: black; /* Starting color */
+    }
+    100% {
+      fill: #ee1d52; /* Pink color used by TikTok */
+    }
+}
