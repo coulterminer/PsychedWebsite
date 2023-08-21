@@ -47,6 +47,11 @@
     animation: comingSoonText 3s ease 0s 1 normal forwards;
 }
 
+.title img{
+  opacity: 0;
+  animation: comingSoonText 3s ease 2s 1 normal forwards;
+}
+
 body {
   margin: 0;
   display: flex;
