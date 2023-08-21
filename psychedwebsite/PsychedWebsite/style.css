@@ -1,0 +1,84 @@
+@keyframes comingSoonText {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes comingSoonAnimation {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes box_anim {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.title {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.title h {
+    font-size: 30px;
+    color: black;
+    font-family: 'Caprasimo', cursive;
+    animation: comingSoonText 3s ease 0s 1 normal forwards;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f7d1;
+}
+
+.psyched{
+  background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box{
+  width: 20%;
+  padding: 15px;
+  margin-top: 10vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  text-align: center;
+  border: solid #333 2.5px;
+  opacity: 0;
+  animation: box_anim 1s ease 1.5s 1 normal forwards;
+}
+
+.box_title{
+  font-family: 'Caprasimo', cursive;
+  font-size: x-large;
+}
+
+.box_content{
+
+}

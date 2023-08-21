@@ -1,0 +1,28 @@
+@keyframes typing {
+    from {
+      width: 0;
+      visibility: hidden;
+    }
+    to {
+      width: 30vh;
+      visibility: visible;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000; /* Change to desired color */
+    }
+}
+
+.construction {
+    overflow: hidden;
+    border-right: 0.15em solid #000; /* Change to desired color */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 0.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
